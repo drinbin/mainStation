@@ -23,6 +23,9 @@
         </div>
       </div>
     </div>
+    <div class="footer">
+      <a href="https://beian.miit.gov.cn/" rel="external nofollow noreferrer" target="_blank">粤ICP备2022014981号</a>
+    </div>
   </div>
 </template>
 
@@ -231,6 +234,18 @@ export default {
   }
   100% {
     transform: translateY(0);
+  }
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 5px 0;
+  background: rgba(255, 255, 255, .2);
+  a {
+    color: #ffffff;
   }
 }
 </style>
